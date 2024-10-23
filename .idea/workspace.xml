@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cb33f994-89c6-4335-bd00-2d182d1f473e" name="Changes" comment="" />
+    <list default="true" id="cb33f994-89c6-4335-bd00-2d182d1f473e" name="Changes" comment="init push" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -89,10 +89,26 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "Rashad-seada"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/Rashad-seada/Spring-E-commerce-backend.git",
+    "accountId": "ff8ee38b-4790-40b3-b156-7731b5ff7bbe"
+  }
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 1
 }</component>
   <component name="ProjectId" id="2kpSirUgx4IuEy1wtyIad7yX0Yb" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -123,8 +139,9 @@
     "Kotlin.ProductServiceApplicationKt.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "dart.analysis.tool.window.visible": "false",
+    "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/Computec/AndroidStudioProjects/spring-microservice/cart-service/src/main/kotlin/com/example/cart_service",
+    "last_opened_file_path": "C:/Users/Computec/AndroidStudioProjects/spring-microservice",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
@@ -226,6 +243,19 @@
       <option name="presentableId" value="Default" />
       <updated>1723979157537</updated>
     </task>
+    <task id="LOCAL-00001" summary="init push">
+      <option name="closed" value="true" />
+      <created>1729715711622</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1729715711622</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="init push" />
+    <option name="LAST_COMMIT_MESSAGE" value="init push" />
   </component>
 </project>
