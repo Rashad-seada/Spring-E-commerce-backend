@@ -1,0 +1,12 @@
+plugins {
+    id 'org.gradle.toolchains.foojay-resolver-convention' version '0.8.0'
+}
+rootProject.name = 'spring-microservice'
+
+include(
+    "product-service",
+    "discovery-server",
+    "api-gateway-server",
+    "auth-service",
+    "cart-service",
+)
