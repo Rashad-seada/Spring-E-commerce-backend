@@ -12,5 +12,7 @@ interface ProductRepo : JpaRepository<Product,Long>{
 
     fun findByNameIgnoreCaseContaining(name: String, pageable: Pageable): Page<Product>
 
+    fun findByIdIn(ids: List<Long>): List<Product>
+
 
 }

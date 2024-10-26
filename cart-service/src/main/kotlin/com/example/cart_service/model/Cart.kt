@@ -12,7 +12,7 @@ data class Cart(
     val id: Long? = null,
 
     @Column(name = "user_id", nullable = false) // userId should not be unique if multiple carts are allowed
-    val userId: Long,
+    val userId: Long? = null,
 
     @OneToMany(mappedBy = "cart", cascade = [CascadeType.ALL], orphanRemoval = true)
     val cartItems: MutableList<CartItem> = mutableListOf()

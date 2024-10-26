@@ -1,7 +1,5 @@
 package com.example.spring_project.services
 
-import com.example.spring_project.core.error.CustomException
-import com.example.spring_project.core.error.ErrorCode
 import com.example.spring_project.model.Product
 import com.example.spring_project.repo.ProductRepo
 import org.springframework.data.domain.Page
@@ -41,5 +39,11 @@ class ProductService(
         val pageable = PageRequest.of(page, size)
         return productRepository.findByNameIgnoreCaseContaining(query, pageable)
     }
+
+    @Transactional
+    fun findByIdIn(ids: List<Long>): List<Product> {
+        return productRepository.findByIdIn(ids)
+    }
+
 
 }

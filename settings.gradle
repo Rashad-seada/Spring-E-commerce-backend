@@ -9,4 +9,5 @@ include(
     "api-gateway-server",
     "auth-service",
     "cart-service",
+    "order-service"
 )

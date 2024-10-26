@@ -7,11 +7,11 @@ data class CartRequest(
 
     @field:NotNull(message = "productId is required")
     @field:Digits(integer = 10, fraction = 0, message = "productId must be a valid integer")
-    val productId: Long?,
+    val productId: Long? = null,
 
     @field:NotNull(message = "skuId is required")
     @field:Digits(integer = 10, fraction = 0, message = "skuId must be a valid integer")
-    val skuId: Long?,
+    val skuId: Long? = null,
 
     @field:NotNull(message = "quantity is required")
     @field:Digits(integer = 10, fraction = 0, message = "quantity must be a valid integer")

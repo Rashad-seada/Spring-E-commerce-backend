@@ -20,7 +20,6 @@ import org.springframework.web.bind.annotation.*
 @RequestMapping("/api/product")
 class ProductController(
     private val productService: ProductService,
-    private val validator: RequestValidator,
     private val categoryService : CategoryService,
     private val imageService: ImageService
 ) {
@@ -50,6 +49,17 @@ class ProductController(
             data = productService.getProductById(id)?.toProductDTO(imageService)
         )
     }
+
+
+    @GetMapping("/ids")
+    fun findByIdIn(@RequestParam ids: List<Long>): CustomResponse<List<ProductResponse>> {
+        return CustomResponse(
+            isSuccessful = true,
+            message = "Got the products with ids: $ids successfully",
+            data = productService.findByIdIn(ids).map { it.toProductDTO(imageService) }
+        )
+    }
+
 
     @DeleteMapping("/{id}")
     fun deleteProduct(@PathVariable id: Long) : CustomResponse<Unit> {

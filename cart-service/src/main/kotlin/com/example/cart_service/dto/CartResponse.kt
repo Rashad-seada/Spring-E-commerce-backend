@@ -5,7 +5,7 @@ data class CartResponse(
 
     val id: Long? = null,
 
-    val userId: Long,
+    val userId: Long? = null,
 
     val cartItems: List<CartItemResponse> = mutableListOf()
 
