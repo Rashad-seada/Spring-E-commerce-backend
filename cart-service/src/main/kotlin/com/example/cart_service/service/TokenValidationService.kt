@@ -19,7 +19,9 @@ class TokenValidationService(
 
         val response = webClient.post()
             .uri("/api/auth/verify-token")
-            .bodyValue(mapOf("token" to token))
+            .bodyValue(mapOf(
+                "token" to token
+            ))
             .retrieve()
             .bodyToMono(VerifyTokenResponse::class.java)
             .block()

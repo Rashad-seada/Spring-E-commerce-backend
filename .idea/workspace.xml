@@ -4,7 +4,39 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cb33f994-89c6-4335-bd00-2d182d1f473e" name="Changes" comment="init push" />
+    <list default="true" id="cb33f994-89c6-4335-bd00-2d182d1f473e" name="Changes" comment="init push">
+      <change afterPath="$PROJECT_DIR$/cart-service/src/main/kotlin/com/example/cart_service/dto/CustomSkuResponse.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cart-service/src/main/kotlin/com/example/cart_service/dto/SkuResponse.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cart-service/src/main/kotlin/com/example/cart_service/service/SkuService.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service/.gitattributes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service/build.gradle.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service/settings.gradle.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service/src/main/java/com/example/order_service/OrderServiceApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service/src/test/java/com/example/order_service/OrderServiceApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth-service/src/main/kotlin/com/example/auth_service/config/ApplicationConfigration.kt" beforeDir="false" afterPath="$PROJECT_DIR$/auth-service/src/main/kotlin/com/example/auth_service/config/ApplicationConfigration.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cart-service/src/main/kotlin/com/example/cart_service/controller/CartController.kt" beforeDir="false" afterPath="$PROJECT_DIR$/cart-service/src/main/kotlin/com/example/cart_service/controller/CartController.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cart-service/src/main/kotlin/com/example/cart_service/dto/CartItemResponse.kt" beforeDir="false" afterPath="$PROJECT_DIR$/cart-service/src/main/kotlin/com/example/cart_service/dto/CartItemResponse.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cart-service/src/main/kotlin/com/example/cart_service/dto/CartRequest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/cart-service/src/main/kotlin/com/example/cart_service/dto/CartRequest.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cart-service/src/main/kotlin/com/example/cart_service/dto/CartResponse.kt" beforeDir="false" afterPath="$PROJECT_DIR$/cart-service/src/main/kotlin/com/example/cart_service/dto/CartResponse.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cart-service/src/main/kotlin/com/example/cart_service/model/Cart.kt" beforeDir="false" afterPath="$PROJECT_DIR$/cart-service/src/main/kotlin/com/example/cart_service/model/Cart.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cart-service/src/main/kotlin/com/example/cart_service/model/CartItem.kt" beforeDir="false" afterPath="$PROJECT_DIR$/cart-service/src/main/kotlin/com/example/cart_service/model/CartItem.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cart-service/src/main/kotlin/com/example/cart_service/service/CartService.kt" beforeDir="false" afterPath="$PROJECT_DIR$/cart-service/src/main/kotlin/com/example/cart_service/service/CartService.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cart-service/src/main/kotlin/com/example/cart_service/service/TokenValidationService.kt" beforeDir="false" afterPath="$PROJECT_DIR$/cart-service/src/main/kotlin/com/example/cart_service/service/TokenValidationService.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product-service/src/main/kotlin/com/example/spring_project/controller/ProductController.kt" beforeDir="false" afterPath="$PROJECT_DIR$/product-service/src/main/kotlin/com/example/spring_project/controller/ProductController.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product-service/src/main/kotlin/com/example/spring_project/controller/SkuController.kt" beforeDir="false" afterPath="$PROJECT_DIR$/product-service/src/main/kotlin/com/example/spring_project/controller/SkuController.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product-service/src/main/kotlin/com/example/spring_project/repo/ProductRepo.kt" beforeDir="false" afterPath="$PROJECT_DIR$/product-service/src/main/kotlin/com/example/spring_project/repo/ProductRepo.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product-service/src/main/kotlin/com/example/spring_project/services/ProductService.kt" beforeDir="false" afterPath="$PROJECT_DIR$/product-service/src/main/kotlin/com/example/spring_project/services/ProductService.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -72,6 +104,17 @@
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="spring-microservice" type="f1a62948:ProjectNode" />
               </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="spring-microservice" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="spring-microservice" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="application" type="c8890929:TasksNode$1" />
+              </path>
             </expand>
             <select />
           </tree_state>
@@ -92,33 +135,39 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "Rashad-seada"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Rashad-seada&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/Rashad-seada/Spring-E-commerce-backend.git",
-    "accountId": "ff8ee38b-4790-40b3-b156-7731b5ff7bbe"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Rashad-seada/Spring-E-commerce-backend.git&quot;,
+    &quot;accountId&quot;: &quot;ff8ee38b-4790-40b3-b156-7731b5ff7bbe&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 1
 }</component>
   <component name="ProjectId" id="2kpSirUgx4IuEy1wtyIad7yX0Yb" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_MARK_IGNORED_FILES_AS_EXCLUDED": "true",
+    "Gradle.Build Spring-E-commerce-backend.executor": "Run",
     "Gradle.Build api-gateway-server.executor": "Run",
     "Gradle.Build discovery-server.executor": "Run",
     "Gradle.Build spring-microservice.executor": "Run",
     "Gradle.Download Sources.executor": "Run",
+    "Gradle.Spring-E-commerce-backend [build].executor": "Run",
+    "Gradle.Spring-E-commerce-backend [clean].executor": "Run",
     "Gradle.spring-microservice [bootRun].executor": "Run",
     "Gradle.spring-microservice [clean].executor": "Run",
     "Gradle.spring-microservice [dependencies].executor": "Run",
@@ -133,6 +182,7 @@
     "Kotlin.ApiGatewayServerApplicationKt.executor": "Run",
     "Kotlin.AuthServiceApplicationKt.executor": "Run",
     "Kotlin.CartServiceApplicationKt.executor": "Run",
+    "Kotlin.DiscoveryServerApplicationKt (1).executor": "Run",
     "Kotlin.DiscoveryServerApplicationKt.executor": "Run",
     "Kotlin.InventoryServiceApplicationKt.executor": "Run",
     "Kotlin.OrderSeriveApplicationKt.executor": "Run",
@@ -141,7 +191,7 @@
     "dart.analysis.tool.window.visible": "false",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/Computec/AndroidStudioProjects/spring-microservice",
+    "last_opened_file_path": "C:/Users/HELAL/IdeaProjects/Spring-E-commerce-backend",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
@@ -150,11 +200,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\HELAL\IdeaProjects\Spring-E-commerce-backend" />
       <recent name="C:\Users\Computec\AndroidStudioProjects\spring-microservice\cart-service\src\main\kotlin\com\example\cart_service" />
       <recent name="C:\Users\Computec\AndroidStudioProjects\spring-microservice" />
       <recent name="C:\Users\Computec\AndroidStudioProjects\spring-microservice\product-service\src\main\kotlin\com\example\spring_project\dto" />
       <recent name="C:\Users\Computec\AndroidStudioProjects\spring-microservice\auth-service\src\main\kotlin\com\example\auth_service" />
-      <recent name="C:\Users\Computec\AndroidStudioProjects\spring-microservice\auth-service" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Computec\AndroidStudioProjects\spring-microservice" />
@@ -175,13 +225,50 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Kotlin.ProductServiceApplicationKt">
-    <configuration name="ApiGatewayServerApplicationKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.api_gateway_server.ApiGatewayServerApplicationKt" />
-      <module name="spring-microservice.api-gateway-server.main" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
+  <component name="RunManager" selected="Gradle.Spring-E-commerce-backend [build]">
+    <configuration name="Spring-E-commerce-backend [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="build" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="Spring-E-commerce-backend [clean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="clean" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
     </configuration>
     <configuration name="AuthServiceApplicationKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.example.auth_service.AuthServiceApplicationKt" />
@@ -193,13 +280,6 @@
     <configuration name="CartServiceApplicationKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.example.cart_service.CartServiceApplicationKt" />
       <module name="spring-microservice.cart-service.main" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DiscoveryServerApplicationKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.discovery_server.DiscoveryServerApplicationKt" />
-      <module name="spring-microservice.discovery-server.main" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -226,11 +306,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Kotlin.ProductServiceApplicationKt" />
+        <item itemvalue="Gradle.Spring-E-commerce-backend [build]" />
+        <item itemvalue="Gradle.Spring-E-commerce-backend [clean]" />
         <item itemvalue="Kotlin.CartServiceApplicationKt" />
+        <item itemvalue="Kotlin.ProductServiceApplicationKt" />
         <item itemvalue="Kotlin.AuthServiceApplicationKt" />
-        <item itemvalue="Kotlin.ApiGatewayServerApplicationKt" />
-        <item itemvalue="Kotlin.DiscoveryServerApplicationKt" />
       </list>
     </recent_temporary>
   </component>

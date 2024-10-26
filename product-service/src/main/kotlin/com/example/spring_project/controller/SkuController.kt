@@ -85,9 +85,9 @@ class SkuController(
         )
     }
 
-    @PostMapping("/by-ids")
+    @GetMapping("/ids")
     fun findSkusByIds(
-        @RequestBody ids: List<Long>
+        @RequestParam ids: List<Long>
     ): CustomResponse<List<SkuResponse>> {
         return CustomResponse(
             isSuccessful = true,

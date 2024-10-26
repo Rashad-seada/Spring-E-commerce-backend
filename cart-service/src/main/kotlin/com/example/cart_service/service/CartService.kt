@@ -22,7 +22,7 @@ class CartService(private val cartRepo: CartRepo) {
     @Transactional
     fun addCartItem(userId: Long, productId: Long?,skuId : Long?, quantity: Int = 1): Cart {
         val cart = getCartByUserId(userId)
-        val existingItem = cart.cartItems.find { it.productId == productId }
+        val existingItem = cart.cartItems.find { it.productId == productId && it.skuId == skuId }
 
         if (existingItem != null) {
             existingItem.quantity += quantity
