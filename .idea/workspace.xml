@@ -4,37 +4,51 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cb33f994-89c6-4335-bd00-2d182d1f473e" name="Changes" comment="init push">
-      <change afterPath="$PROJECT_DIR$/cart-service/src/main/kotlin/com/example/cart_service/dto/CustomSkuResponse.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cart-service/src/main/kotlin/com/example/cart_service/dto/SkuResponse.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cart-service/src/main/kotlin/com/example/cart_service/service/SkuService.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order-service/.gitattributes" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order-service/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order-service/build.gradle.kts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order-service/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order-service/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order-service/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order-service/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order-service/settings.gradle.kts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order-service/src/main/java/com/example/order_service/OrderServiceApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order-service/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order-service/src/test/java/com/example/order_service/OrderServiceApplicationTests.java" afterDir="false" />
+    <list default="true" id="cb33f994-89c6-4335-bd00-2d182d1f473e" name="Changes" comment="feat : added order service module to the project">
+      <change afterPath="$PROJECT_DIR$/kafka-server/kafka-server/.gitattributes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kafka-server/kafka-server/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kafka-server/kafka-server/build.gradle.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kafka-server/kafka-server/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kafka-server/kafka-server/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kafka-server/kafka-server/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kafka-server/kafka-server/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kafka-server/kafka-server/settings.gradle.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kafka-server/kafka-server/src/main/kotlin/com/example/kafka_server/KafkaServerApplication.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kafka-server/kafka-server/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kafka-server/kafka-server/src/test/kotlin/com/example/kafka_server/KafkaServerApplicationTests.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service/src/main/kotlin/com/example/order_service/OrderServiceApplication.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service/src/main/kotlin/com/example/order_service/core/Configration.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service/src/main/kotlin/com/example/order_service/core/RequestValidator.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service/src/main/kotlin/com/example/order_service/core/dto/CustomResponse.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service/src/main/kotlin/com/example/order_service/core/error/CustomException.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service/src/main/kotlin/com/example/order_service/core/error/ErrorCode.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service/src/main/kotlin/com/example/order_service/core/error/ExceptionHandler.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service/src/main/kotlin/com/example/order_service/dto/CartDto.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service/src/main/kotlin/com/example/order_service/dto/CartItemDto.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service/src/main/kotlin/com/example/order_service/dto/CartResponse.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service/src/main/kotlin/com/example/order_service/dto/SkuDto.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service/src/main/kotlin/com/example/order_service/dto/VerifyTokenResponse.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service/src/main/kotlin/com/example/order_service/models/Order.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service/src/main/kotlin/com/example/order_service/models/OrderItem.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service/src/main/kotlin/com/example/order_service/repos/OrderItemRepo.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service/src/main/kotlin/com/example/order_service/repos/OrderRepo.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service/src/main/kotlin/com/example/order_service/services/CartService.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service/src/main/kotlin/com/example/order_service/services/OrderService.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service/src/main/kotlin/com/example/order_service/services/TokenValidationService.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service/src/test/kotlin/com/example/order_service/OrderServiceApplicationTests.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auth-service/src/main/kotlin/com/example/auth_service/config/ApplicationConfigration.kt" beforeDir="false" afterPath="$PROJECT_DIR$/auth-service/src/main/kotlin/com/example/auth_service/config/ApplicationConfigration.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cart-service/src/main/kotlin/com/example/cart_service/controller/CartController.kt" beforeDir="false" afterPath="$PROJECT_DIR$/cart-service/src/main/kotlin/com/example/cart_service/controller/CartController.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cart-service/src/main/kotlin/com/example/cart_service/dto/CartItemResponse.kt" beforeDir="false" afterPath="$PROJECT_DIR$/cart-service/src/main/kotlin/com/example/cart_service/dto/CartItemResponse.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cart-service/src/main/kotlin/com/example/cart_service/dto/CartRequest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/cart-service/src/main/kotlin/com/example/cart_service/dto/CartRequest.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cart-service/src/main/kotlin/com/example/cart_service/dto/CartResponse.kt" beforeDir="false" afterPath="$PROJECT_DIR$/cart-service/src/main/kotlin/com/example/cart_service/dto/CartResponse.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cart-service/src/main/kotlin/com/example/cart_service/model/Cart.kt" beforeDir="false" afterPath="$PROJECT_DIR$/cart-service/src/main/kotlin/com/example/cart_service/model/Cart.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cart-service/src/main/kotlin/com/example/cart_service/model/CartItem.kt" beforeDir="false" afterPath="$PROJECT_DIR$/cart-service/src/main/kotlin/com/example/cart_service/model/CartItem.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cart-service/src/main/kotlin/com/example/cart_service/repo/CartItemRepo.kt" beforeDir="false" afterPath="$PROJECT_DIR$/cart-service/src/main/kotlin/com/example/cart_service/repo/CartItemRepo.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cart-service/src/main/kotlin/com/example/cart_service/repo/CartRepo.kt" beforeDir="false" afterPath="$PROJECT_DIR$/cart-service/src/main/kotlin/com/example/cart_service/repo/CartRepo.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cart-service/src/main/kotlin/com/example/cart_service/service/CartService.kt" beforeDir="false" afterPath="$PROJECT_DIR$/cart-service/src/main/kotlin/com/example/cart_service/service/CartService.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cart-service/src/main/kotlin/com/example/cart_service/service/TokenValidationService.kt" beforeDir="false" afterPath="$PROJECT_DIR$/cart-service/src/main/kotlin/com/example/cart_service/service/TokenValidationService.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order-service/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/order-service/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order-service/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/order-service/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order-service/src/main/java/com/example/order_service/OrderServiceApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/order-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/order-service/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order-service/src/test/java/com/example/order_service/OrderServiceApplicationTests.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/product-service/src/main/kotlin/com/example/spring_project/controller/ProductController.kt" beforeDir="false" afterPath="$PROJECT_DIR$/product-service/src/main/kotlin/com/example/spring_project/controller/ProductController.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product-service/src/main/kotlin/com/example/spring_project/controller/SkuController.kt" beforeDir="false" afterPath="$PROJECT_DIR$/product-service/src/main/kotlin/com/example/spring_project/controller/SkuController.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product-service/src/main/kotlin/com/example/spring_project/repo/ProductRepo.kt" beforeDir="false" afterPath="$PROJECT_DIR$/product-service/src/main/kotlin/com/example/spring_project/repo/ProductRepo.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product-service/src/main/kotlin/com/example/spring_project/services/ProductService.kt" beforeDir="false" afterPath="$PROJECT_DIR$/product-service/src/main/kotlin/com/example/spring_project/services/ProductService.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -64,6 +78,12 @@
       <ProjectState />
     </projectState>
     <projectState path="$PROJECT_DIR$/discovery-server">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/kafka-server/kafka-server">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/order-service">
       <ProjectState />
     </projectState>
     <projectState path="$PROJECT_DIR$/../spring-project/inventory-service">
@@ -97,6 +117,9 @@
         <task path="$PROJECT_DIR$/cart-service">
           <activation />
         </task>
+        <task path="$PROJECT_DIR$/kafka-server">
+          <activation />
+        </task>
         <projects_view>
           <tree_state>
             <expand>
@@ -107,13 +130,20 @@
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="spring-microservice" type="f1a62948:ProjectNode" />
+                <item name="order-service" type="2d1252cf:ModuleNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="spring-microservice" type="f1a62948:ProjectNode" />
+                <item name="order-service" type="2d1252cf:ModuleNode" />
                 <item name="Tasks" type="e4a08cd1:TasksNode" />
               </path>
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="spring-microservice" type="f1a62948:ProjectNode" />
+                <item name="order-service" type="2d1252cf:ModuleNode" />
                 <item name="Tasks" type="e4a08cd1:TasksNode" />
-                <item name="application" type="c8890929:TasksNode$1" />
+                <item name="build" type="c8890929:TasksNode$1" />
               </path>
             </expand>
             <select />
@@ -125,9 +155,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Kotlin Interface" />
         <option value="Kotlin Object" />
         <option value="Kotlin Data Class" />
+        <option value="Kotlin Interface" />
         <option value="Kotlin Class" />
       </list>
     </option>
@@ -143,10 +173,16 @@
 }</component>
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/Rashad-seada/Spring-E-commerce-backend.git&quot;,
-    &quot;accountId&quot;: &quot;ff8ee38b-4790-40b3-b156-7731b5ff7bbe&quot;
+    &quot;url&quot;: &quot;https://github.com/Rashad-seada/Spring-E-commerce-backend&quot;,
+    &quot;accountId&quot;: &quot;2ce605dd-abcc-4cd1-8112-c38d26f5eadd&quot;
   }
 }</component>
+  <component name="KotlinScriptingSettings">
+    <scriptDefinition className="org.jetbrains.kotlin.scripting.resolve.KotlinScriptDefinitionFromAnnotatedTemplate" definitionName="KotlinSettingsScript">
+      <order>2147483647</order>
+      <autoReloadConfigurations>true</autoReloadConfigurations>
+    </scriptDefinition>
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 1
 }</component>
@@ -186,30 +222,36 @@
     "Kotlin.DiscoveryServerApplicationKt.executor": "Run",
     "Kotlin.InventoryServiceApplicationKt.executor": "Run",
     "Kotlin.OrderSeriveApplicationKt.executor": "Run",
+    "Kotlin.OrderServiceApplicationKt.executor": "Run",
     "Kotlin.ProductServiceApplicationKt.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "dart.analysis.tool.window.visible": "false",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/HELAL/IdeaProjects/Spring-E-commerce-backend",
+    "last_opened_file_path": "C:/Users/HELAL/IdeaProjects/Spring-E-commerce-backend/order-service/src/main/kotlin/com/example/order_service/dto",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "advanced.settings"
+    "settings.editor.selected.configurable": "reference.projectsettings.compiler.javacompiler"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\HELAL\IdeaProjects\Spring-E-commerce-backend\order-service\src\main\kotlin\com\example\order_service\dto" />
+      <recent name="C:\Users\HELAL\IdeaProjects\Spring-E-commerce-backend\order-service\src\main\kotlin\com\example\order_service" />
       <recent name="C:\Users\HELAL\IdeaProjects\Spring-E-commerce-backend" />
       <recent name="C:\Users\Computec\AndroidStudioProjects\spring-microservice\cart-service\src\main\kotlin\com\example\cart_service" />
       <recent name="C:\Users\Computec\AndroidStudioProjects\spring-microservice" />
-      <recent name="C:\Users\Computec\AndroidStudioProjects\spring-microservice\product-service\src\main\kotlin\com\example\spring_project\dto" />
-      <recent name="C:\Users\Computec\AndroidStudioProjects\spring-microservice\auth-service\src\main\kotlin\com\example\auth_service" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Computec\AndroidStudioProjects\spring-microservice" />
     </key>
+    <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
+      <recent name="com.example.order_service.repos" />
+    </key>
     <key name="CopyKotlinDeclarationDialog.RECENTS_KEY">
+      <recent name="com.example.order_service.services" />
+      <recent name="com.example.order_service.repos" />
       <recent name="com.example.spring_project.controller" />
       <recent name="com.example.spring_project.repo" />
       <recent name="com.example.auth_service.dto" />
@@ -225,50 +267,13 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.Spring-E-commerce-backend [build]">
-    <configuration name="Spring-E-commerce-backend [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value="build" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>false</RunAsTest>
-      <method v="2" />
-    </configuration>
-    <configuration name="Spring-E-commerce-backend [clean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value="clean" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>false</RunAsTest>
-      <method v="2" />
+  <component name="RunManager" selected="Kotlin.CartServiceApplicationKt">
+    <configuration name="ApiGatewayServerApplicationKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.api_gateway_server.ApiGatewayServerApplicationKt" />
+      <module name="spring-microservice.api-gateway-server.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="AuthServiceApplicationKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.example.auth_service.AuthServiceApplicationKt" />
@@ -280,6 +285,13 @@
     <configuration name="CartServiceApplicationKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.example.cart_service.CartServiceApplicationKt" />
       <module name="spring-microservice.cart-service.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrderServiceApplicationKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.order_service.OrderServiceApplicationKt" />
+      <module name="spring-microservice.order-service.main" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -306,15 +318,23 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.Spring-E-commerce-backend [build]" />
-        <item itemvalue="Gradle.Spring-E-commerce-backend [clean]" />
         <item itemvalue="Kotlin.CartServiceApplicationKt" />
+        <item itemvalue="Kotlin.OrderServiceApplicationKt" />
         <item itemvalue="Kotlin.ProductServiceApplicationKt" />
         <item itemvalue="Kotlin.AuthServiceApplicationKt" />
+        <item itemvalue="Kotlin.ApiGatewayServerApplicationKt" />
       </list>
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="StandaloneScriptsStorage">
+    <option name="files">
+      <set>
+        <option value="$PROJECT_DIR$/order-service/build.gradle.kts" />
+        <option value="$PROJECT_DIR$/order-service/settings.gradle.kts" />
+      </set>
+    </option>
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="cb33f994-89c6-4335-bd00-2d182d1f473e" name="Changes" comment="" />
@@ -331,11 +351,20 @@
       <option name="project" value="LOCAL" />
       <updated>1729715711622</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="feat : added order service module to the project">
+      <option name="closed" value="true" />
+      <created>1729912470525</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1729912470525</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init push" />
-    <option name="LAST_COMMIT_MESSAGE" value="init push" />
+    <MESSAGE value="feat : added order service module to the project" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat : added order service module to the project" />
   </component>
 </project>

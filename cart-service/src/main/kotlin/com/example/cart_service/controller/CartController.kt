@@ -122,4 +122,22 @@ class CartController(
         }
     }
 
+    @DeleteMapping("/clear")
+    fun clearCartItems(
+        @RequestHeader("Authorization") token: String,
+    ): CustomResponse<Unit> {
+        return tokenValidationService.tokenValidation(token) {
+            val result = cartService.clearCart(it?.data?.tokenData?.userId?.toLong()!!)
+
+            CustomResponse(
+                isSuccessful = true,
+                message = "Successfully cleared items from cart for user ID: ${it.data.tokenData.userId}",
+                data = result
+            )
+        }
+    }
+
+
+
+
 }

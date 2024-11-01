@@ -27,7 +27,8 @@ class ProductController(
     @PostMapping
     fun createProduct(
         @Valid @RequestBody productDTO : ProductDTO,
-        bindingResult: BindingResult): CustomResponse<ProductResponse> {
+        bindingResult: BindingResult
+    ): CustomResponse<ProductResponse> {
 
         val error = validateRequest<ProductResponse>(bindingResult)
         if(error != null) return error

@@ -7,4 +7,7 @@ import org.springframework.stereotype.Repository
 @Repository
 interface CartRepo : JpaRepository<Cart, Long> {
     fun findByUserId(userId: Long): Cart?
+
+    fun deleteByUserId(userId: Long): Unit
+
 }

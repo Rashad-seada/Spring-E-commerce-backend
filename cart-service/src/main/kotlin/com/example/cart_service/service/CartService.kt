@@ -2,12 +2,16 @@ package com.example.cart_service.service
 
 import com.example.cart_service.model.Cart
 import com.example.cart_service.model.CartItem
+import com.example.cart_service.repo.CartItemRepo
 import com.example.cart_service.repo.CartRepo
 import org.springframework.stereotype.Service
 import org.springframework.transaction.annotation.Transactional
 
 @Service
-class CartService(private val cartRepo: CartRepo) {
+class CartService(
+    private val cartRepo: CartRepo,
+    private val cartItemRepo: CartItemRepo
+) {
 
     @Transactional
     fun getCartByUserId(userId: Long): Cart {
@@ -52,4 +56,15 @@ class CartService(private val cartRepo: CartRepo) {
         item?.quantity = newQuantity
         return cartRepo.save(cart)
     }
+
+
+    @Transactional
+    fun clearCart(userId: Long) : Unit {
+        val cartItemsId = cartRepo.findByUserId(userId)?.cartItems
+
+        val result = cartItemRepo.deleteAll(cartItemsId?: mutableListOf())
+
+        return result
+    }
+
 }
